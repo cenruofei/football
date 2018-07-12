@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<script>
+function re(){
+ var now=Date.parse(new Date());
+ var r=Date.parse("2018/6/23");
+ var cut=now-r;
+ var day=Math.floor(cut/(24*3600*1000));
+ var hour=Math.floor((cut/(3600*1000))%24)
+ var Min=Math.floor((cut/(60*1000))%60)
+ var sec=Math.floor((cut/1000)%60);
+ document.getElementById('a').innerHTML=''+day+'天';
+}
+</script>
+<style type="text/css">
+<!--
+
+.STYLE2 {
+	font-size: 30px;
+	color: #FF0000;
+}
+
+-->
+</style>
+<style type="text/css">
+
+p {
+	float:left;
+	margin-left: 50px;
+	width:30px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	padding:2px;
+	font-size:32px;
+	color:#FF6633;
+	text-shadow:3px 3px 5px #333;
+  }
+body 
+
+{
+	margin-left: 0px;
+	background-image: url(beijing2.gif);
+	background-repeat: repeat;
+	background-color: #FFFFFF;
+}
+.STYLE1 {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #6633FF;
+	font-size: 24px;
+}
+body,td,th {
+	color: #FF0066;
+	font-family: Times New Roman, Times, serif;
+}
+.STYLE2 {
+	color: #FF0033;
+	font-family: "宋体";
+	font-size: 36px;
+}
+.STYLE5 {font-size: 24px}
+.STYLE6 {
+	color: #FF0000;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 42px;
+	text-shadow:3px 2px 2px #333;
+	
+}
+.STYLE10 {color: #FF9999}
+.STYLE12 {
+	color: #CCFF99;
+	font-size: 18px;
+	font-weight: bold;
+}
+.STYLE13 {
+	color: #FF3366;
+	font-weight: bold;
+	
+}
+.STYLE14 {
+	font-size: 24px;
+	font-style: italic;
+	color: #FF00FF;
+}
+.STYLE15 {
+	font-size: 24px;
+	font-style: italic;
+	color: #FFFF00;
+}
+.STYLE16 {font-weight: bold}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<body>
+<span class="STYLE12">今天是陆颖、安芳婚后的</span>
+ <input type="button" value="点这里" onClick="re()" />
+
+<div class="STYLE2" id="a"></div>
+<div>
+  <h1 class="STYLE2">  <span class="STYLE6">陆颖、安芳</span> <span class="STYLE10">的温馨小屋</span></h1>
+  <nav>
+  <ul>
+  <li><span class="STYLE16"><a href="hunsha.html" class="STYLE14">点击婚纱记录</a></span></li>
+  <li><strong><a href="shenghuo.html" class="STYLE15">点击生活纪实</a></strong></li>
+<span class="STYLE13"><p> 遇见对的人 ，一辈子 ！</p>
+  </span>
+  <div align="center"><img src="3.jpg" alt="" width="573" height="573" border="0"></div>
+<div>
+  <audio src="yujian.mp3" id="audio1" hidden="true" delay="2s" autoplay="true" loop="true">  </audio>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <div align="center"><span class="STYLE5">
+    <!-- #BeginDate format:wfcIS1m -->Wednesday, 2018-07-11  15:05<!-- #EndDate -->
+  </span></div>
+</div>
+</body>
+</html>
